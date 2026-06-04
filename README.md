@@ -21,8 +21,10 @@ https://codepen.io/Kernela/pen/PoMqMQq
 - **CSS**
 
 ## 📁 Project Structure
+```
 index.html
 styles.css
+```
 
 ## 📜 Notes
 This is a lightweight practice project and part of a larger collection of front‑end exercises.
