@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    color: #503982;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+}
+#hero {
+  background-image:  url("https://cdn.pixabay.com/animation/2022/11/16/14/56/14-56-49-778_512.gif");
+  background-size: cover;
+  background-position: center -50px; /* Moves the background image upwards */
+
+    padding-top: 100px; /* Move the background image down */
+    padding-bottom: 350px; /* Maintain bottom padding */
+    position: relative; /* Allow relative positioning of inner content */
+}
+#hero .content-container {
+    position: relative;
+    top: -100px; /* Move the content back up without affecting the background */
+  
+}
+#main-logo {
+    width: 100px;
+    margin-top: -10px; /* Move logo upwards */
+}
+#title {
+    text-shadow: 0px 0px 4px black;
+    font-size: 80px; /* Adjust the size here */
+}
+.btn {
+    font-size: 40px; /* Adjust the size of the text */
+    padding: 10px 20px; /* Adjust the size of the button */
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    color: #6a69ab;
+    font-weight: bold;
+}
+
+
+.underline {
+    border-bottom: 4px solid white;
+}
+h3 {
+    font-size: 40px; /* Larger h3 size */
+}
